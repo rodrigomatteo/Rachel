@@ -8,52 +8,61 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <style>
-    body{
-        height : 100vh;
-        overflow : scroll;
-      }
-    
-    .color-me{
-    color:blue;
-    }
-    </style>
+    <link rel="stylesheet" href="style.css">
 
     <title>Rachel</title>
 </head>
 <body>
-    <div class="container h-100">
-        <nav class="navbar sticky-top navbar-light bg-light">
-            <a class="navbar-brand" href="#">Rachel</a>
-        </nav>
-        <div class="container-fluid h-100">
-            <div class="row h-100">
-                <div class="col-1 col-sm-1 bg-dark">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <img src="https://seeklogo.com/images/R/russia-2018-logo-015B1A54A0-seeklogo.com.png" alt="Rusia 2018" class="mw-100 rounded">
-                        </li>
-                        <li class="nav-item">
-                            <img src="http://www.seeklogo.net/wp-content/uploads/2016/11/premier-league-logo-preview.png" alt="Premier League" class="mw-100 rounded">
-                        </li>
-                        <li class="nav-item">
-                            <img src="http://www.seeklogo.net/wp-content/uploads/2013/10/ligue-1-vector-logo.png" alt="Ligue 1" class="mw-100 rounded">
-                        </li>
-                        <li class="nav-item">
-                            <img src="http://www.seeklogo.net/wp-content/uploads/2013/10/lega-calcio-serie-a-tim-current-2010-vector-logo.png" alt="La Liga" class="mw-100 rounded">
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-11 col-sm-11">
-                    <h2>...</h2>
-                </div>
-            </div>
+    <!-- Bootstrap NavBar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+        
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+            <img src="https://v4-alpha.getbootstrap.com/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            <span class="menu-collapsed">Rachel</span>
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+
+                <!-- This menu is hidden in bigger devices with d-sm-none. 
+                     The sidebar isn't proper for smaller screens imo, so this dropdown menu can keep all the useful sidebar itens exclusively for smaller screens  -->
+                <li class="nav-item dropdown d-sm-block d-md-none">
+                </li>
+                <!-- Smaller devices menu END -->
+    
+            </ul>
         </div>
+    </nav>
+    <!-- NavBar END -->
+
+    <!-- Bootstrap row -->
+    <div class="row" id="body-row">
+        <!-- Sidebar -->
+        <div id="sidebar-container" class="sidebar-expanded d-none d-md-block col-2">
+            <!-- d-* hiddens the Sidebar in smaller devices. Its itens can be kept on the Navbar 'Menu' -->
+            <!-- Bootstrap List Group -->
+            <ul class="list-group sticky-top sticky-offset">
+            </ul>
+            <!-- List Group END-->
+        </div>
+        <!-- sidebar-container END -->
+    
+        <!-- MAIN -->
+        <div class="col py-3">
+        </div>
+        <!-- Main Col END -->
+    
     </div>
+    <!-- body-row END -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>
