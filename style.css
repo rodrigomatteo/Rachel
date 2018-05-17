@@ -43,14 +43,14 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
+/* Status boxes */
 .square-service-block{
       position:relative;
       overflow:hidden;
       margin:15px auto;
 }
 
-.square-service-block a {
-    background-color: #e74c3c;
+.square-service-block span {
     border-radius: 5px;
     display: block;
     padding: 60px 20px;
@@ -58,7 +58,7 @@ a:hover, a:focus {
     width: 100%;
 }
 
-.square-service-block a:hover{
+.square-service-block span:hover{
     background-color: rgba(231, 76, 60, 0.8);
     border-radius: 5px;
 }
@@ -77,5 +77,9 @@ a:hover, a:focus {
     margin:0;
     padding:0;
     text-transform: uppercase;
+}  
+
+.fa-style {
+    color: #fff;
+    font-size: 5em;
 }
-  
