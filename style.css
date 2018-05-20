@@ -25,7 +25,6 @@ body {
 
 /* Menu item*/
 #sidebar-container .list-group a {
-    height: 50px;
     color: white;
 }
 
@@ -82,3 +81,7 @@ a:hover, a:focus {
 .fa-stack-text-calendar { margin-top: 15px; }
 .fa-stack-text-star { margin-left: 5px; margin-top: 10px; margin-bottom: 5px; }
 .fa-stack-text-folder { margin-top: 10px; }
+
+#navbarNavDropdown{
+    background-color: #333;
+}
