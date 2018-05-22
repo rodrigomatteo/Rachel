@@ -180,6 +180,265 @@
 					start: new Date(y, 5, 17, 13, 0),
 					allDay: false,
 					className: 'info'
+				},
+				{
+					id: 12,
+					title: 'SUE - COR',
+					start: new Date(y, 5, 18, 7, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 13,
+					title: 'BEL - PAN',
+					start: new Date(y, 5, 18, 10, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 14,
+					title: 'TUN - ING',
+					start: new Date(y, 5, 18, 13, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 15,
+					title: 'COL - JAP',
+					start: new Date(y, 5, 19, 7, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 16,
+					title: 'POL - SEN',
+					start: new Date(y, 5, 19, 10, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 17,
+					title: 'RUS - EGI',
+					start: new Date(y, 5, 19, 13, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 18,
+					title: 'POR - MAR',
+					start: new Date(y, 5, 20, 7, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 19,
+					title: 'URU - ASA',
+					start: new Date(y, 5, 20, 10, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 20,
+					title: 'IRA - ESP',
+					start: new Date(y, 5, 20, 13, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 21,
+					title: 'DIN - AUS',
+					start: new Date(y, 5, 21, 7, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 22,
+					title: 'FRA - PER',
+					start: new Date(y, 5, 21, 10, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 23,
+					title: 'ARG - CRO',
+					start: new Date(y, 5, 21, 13, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 24,
+					title: 'BRA - COS',
+					start: new Date(y, 5, 22, 7, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 25,
+					title: 'NIG - ISL',
+					start: new Date(y, 5, 22, 10, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 26,
+					title: 'SER - SUI',
+					start: new Date(y, 5, 22, 13, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 27,
+					title: 'BEL - TUN',
+					start: new Date(y, 5, 23, 7, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 28,
+					title: 'COR - MEX',
+					start: new Date(y, 5, 23, 10, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 29,
+					title: 'ALE - SUE',
+					start: new Date(y, 5, 23, 13, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 30,
+					title: 'ING - PAN',
+					start: new Date(y, 5, 24, 7, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 31,
+					title: 'JAP - SEN',
+					start: new Date(y, 5, 24, 10, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 32,
+					title: 'POL - COL',
+					start: new Date(y, 5, 24, 13, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 33,
+					title: 'URU - RUS',
+					start: new Date(y, 5, 25, 9, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 34,
+					title: 'ASA - EGI',
+					start: new Date(y, 5, 25, 9, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 35,
+					title: 'ESP - MAR',
+					start: new Date(y, 5, 25, 13, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 36,
+					title: 'IRA - POR',
+					start: new Date(y, 5, 25, 13, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 37,
+					title: 'AUS - PER',
+					start: new Date(y, 5, 26, 9, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 38,
+					title: 'DIN - FRA',
+					start: new Date(y, 5, 26, 9, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 39,
+					title: 'NIG - ARG',
+					start: new Date(y, 5, 26, 13, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 40,
+					title: 'ISL - CRO',
+					start: new Date(y, 5, 26, 13, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 41,
+					title: 'COR - ALE',
+					start: new Date(y, 5, 27, 9, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 42,
+					title: 'MEX - SUE',
+					start: new Date(y, 5, 27, 9, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 43,
+					title: 'SER - BRA',
+					start: new Date(y, 5, 27, 13, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 44,
+					title: 'SUI - COS',
+					start: new Date(y, 5, 27, 13, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 45,
+					title: 'JAP - POL',
+					start: new Date(y, 5, 28, 9, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 46,
+					title: 'SEN - COL',
+					start: new Date(y, 5, 28, 9, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 47,
+					title: 'PAN - TUN',
+					start: new Date(y, 5, 28, 13, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 48,
+					title: 'ENG - BEL',
+					start: new Date(y, 5, 28, 13, 0),
+					allDay: false,
+					className: 'info'
 				}
 			],			
 		});
