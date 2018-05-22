@@ -8,14 +8,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">    
     <title>Rachel</title>
 </head>
 <body>
     <!-- Bootstrap NavBar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
-        
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -31,7 +30,7 @@
                      The sidebar isn't proper for smaller screens imo, so this dropdown menu can keep all the useful sidebar itens exclusively for smaller screens  -->
                 <li class="nav-item dropdown d-sm-block d-md-none">
                     <a class="dropdown-item" href="calendar.html">
-                        <img src="images/fifawc2018.png" class="menu-collapsed img-fluid" style="height: 100%; width: 100%; display: block;" alt="">
+                        <img src="images/fifawc2018.png" class="menu-collapsed mx-auto img-fluid d-block" alt="">
                     </a>
                 </li>
                 <!-- Smaller devices menu END -->
@@ -44,13 +43,13 @@
     <!-- Bootstrap row -->
     <div class="row" id="body-row">
         <!-- Sidebar -->
-        <div id="sidebar-container" class="sidebar-expanded d-none d-md-block col-2">
+        <div id="sidebar-container" class="sidebar-expanded d-none d-md-block col-1">
             <!-- d-* hiddens the Sidebar in smaller devices. Its itens can be kept on the Navbar 'Menu' -->
             <!-- Bootstrap List Group -->
             <ul class="list-group sticky-top sticky-offset">
                 <a href="calendar.html" class="bg-dark list-group-item list-group-item-action">
                     <div class="d-flex w-100 justify-content-start align-items-center">
-                        <img src="images/fifawc2018.png" class="menu-collapsed img-fluid" style="height: 100%; width: 100%; display: block;" alt="">
+                        <img src="images/fifawc2018.png" class="menu-collapsed mx-auto img-fluid d-block" alt="">
                     </div>
                 </a>
             </ul>

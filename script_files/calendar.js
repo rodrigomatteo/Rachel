@@ -105,60 +105,79 @@
 			
 			events: [
 				{
-					title: 'All Day Event',
-					start: new Date(y, m, 1)
-				},
-				{
-					id: 999,
-					title: 'Repeating Event',
-					start: new Date(y, m, d-3, 16, 0),
+					id: 1,
+					title: 'RUS - ASA',
+					start: new Date(y, 5, 14, 10, 0),
 					allDay: false,
 					className: 'info'
 				},
 				{
-					id: 999,
-					title: 'Repeating Event',
-					start: new Date(y, m, d+4, 16, 0),
+					id: 2,
+					title: 'EGI - URU',
+					start: new Date(y, 5, 15, 7, 0),
 					allDay: false,
 					className: 'info'
 				},
 				{
-					title: 'Meeting',
-					start: new Date(y, m, d, 10, 30),
-					allDay: false,
-					className: 'important'
-				},
-				{
-					title: 'Lunch',
-					start: new Date(y, m, d, 12, 0),
-					end: new Date(y, m, d, 14, 0),
-					allDay: false,
-					className: 'important'
-				},
-				{
-					title: 'Birthday Party',
-					start: new Date(y, m, d+1, 19, 0),
-					end: new Date(y, m, d+1, 22, 30),
-					allDay: false,
-				},
-				{
-					title: 'Click for Google',
-					start: new Date(y, m, 28),
-					end: new Date(y, m, 29),
-					url: 'http://google.com/',
-					className: 'success'
-				},
-				{
-					id: 1000,
-					title: 'PER - DIN',
-					start: new Date(y, 5, 16, 10, 0),
+					id: 3,
+					title: 'MAR - IRA',
+					start: new Date(y, 5, 15, 10, 0),
 					allDay: false,
 					className: 'info'
 				},
 				{
-					id: 1000,
+					id: 4,
+					title: 'POR - ESP',
+					start: new Date(y, 5, 15, 13, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 5,
+					title: 'FRA - AUS',
+					start: new Date(y, 5, 16, 5, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 6,
 					title: 'ARG - ISL',
+					start: new Date(y, 5, 16, 8, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 7,
+					title: 'PER - DIN',
 					start: new Date(y, 5, 16, 11, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 8,
+					title: 'CRO - NIG',
+					start: new Date(y, 5, 16, 14, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 9,
+					title: 'COS - SER',
+					start: new Date(y, 5, 17, 7, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 10,
+					title: 'ALE - MEX',
+					start: new Date(y, 5, 17, 10, 0),
+					allDay: false,
+					className: 'info'
+				},
+				{
+					id: 11,
+					title: 'BRA - SUI',
+					start: new Date(y, 5, 17, 13, 0),
 					allDay: false,
 					className: 'info'
 				}
