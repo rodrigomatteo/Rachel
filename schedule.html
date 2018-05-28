@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/calendar.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">    
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.css' />
@@ -22,17 +23,11 @@
     
     <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.js'></script>
+
+    <script type="text/javascript" src="script_files/calendar.js"></script>
     
     <script>
-        $(function() {
-            
-                // page is now ready, initialize the calendar...
-            
-                $('#calendar').fullCalendar({
-                // put your options and callbacks here
-                })
-            
-            });
+        $(document).ready(initializeCalendar);
     </script>
 
     <title>Rachel</title>
@@ -85,7 +80,9 @@
         <!-- MAIN -->
         <div class="col py-3">
             <div class="row">
-                <div id='calendar'></div>
+                <div id='wrap' class="container-fluid col-md-12">
+                    <div id='calendar' class="border"></div>
+                </div>
             </div>
         </div>
         <!-- Main Col END -->
