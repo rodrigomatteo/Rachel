@@ -29,56 +29,21 @@ $('#calendar').fullCalendar({
         defaultDate: '2018-06-01',
         eventClick: function(eventObj) {
             if (eventObj.url) {
-                alert(
-                    'Clicked ' + eventObj.title + '.\n' +
-                    'Will open ' + eventObj.url + ' in a new tab'
-                );
-      
                 window.open(eventObj.url);
-      
                 return false; // prevents browser from following link in current tab.
             } 
-            else {
-                alert('Clicked ' + eventObj.title);
-            }
-        }/*,
-        eventMouseover: function (data, event, view) {
-            tooltip = '<div class="tooltiptopicevent" style="width:auto;height:auto;background:white;position:absolute;z-index:10001;padding:10px 10px 10px 10px;  line-height: 200%;">' + 
-                        'title: ' + ': ' + data.title + '</br>' + 
-                        'start: ' + ': ' + data.start + 
-                        '</div>';
-            $("body").append(tooltip);
-            $(this).mouseover(function (e) {
-                $(this).css('z-index', 10000);
-                $('.tooltiptopicevent').fadeIn('500');
-                $('.tooltiptopicevent').fadeTo('10', 1.9);
-            }).mousemove(function (e) {
-                $('.tooltiptopicevent').css('top', e.pageY + 10);
-                $('.tooltiptopicevent').css('left', e.pageX + 20);
-            });
         },
-        eventMouseout: function (data, event, view) {
-            $(this).css('z-index', 8);
-            $('.tooltiptopicevent').remove();
-        },
-        dayClick: function () {
-            tooltip.hide()
-        },
-        eventResizeStart: function () {
-            tooltip.hide()
-        },
-        eventDragStart: function () {
-            tooltip.hide()
-        },
-        viewDisplay: function () {
-            tooltip.hide()
-        }*/,
         eventRender: function(eventObj, $el) {
             $el.popover(
                 {
                     html: true,
-                    title: eventObj.extendedTitle,
-                    content: '',
+                    title: '#01 - ' + eventObj.extendedTitle,
+                    content: '<div class="container">' +
+                             '<i class="fas fa-table"></i>&nbsp&nbspGrupo A<br/>' +
+                             '<i class="fas fa-thumbtack"></i>&nbsp&nbsp&nbspMonumental, Moscú<br/>' +
+                             '<i class="fas fa-users"></i>&nbsp&nbsp74,738 / 74,738<br/>' +
+                             '<i class="fas fa-sun"></i>&nbsp&nbspSoleado - <i class="fas fa-thermometer"></i>&nbsp&nbsp23 °C - <i class="fas fa-tint"></i>&nbsp&nbsp65%<br/>' +
+                             '</div>',
                     trigger: 'hover',
                     placement: 'top',
                     container: 'body'
@@ -127,7 +92,7 @@ $('#calendar').fullCalendar({
             {
               id: 1,
               title: 'RUS - ASA',
-              extendedTitle: 'RUSIA 0 - 0 ARABIA',
+              extendedTitle: 'RUSIA - : - ARABIA',
               start: '2018-06-14T10:00',
               end  : '2018-06-14T12:00',
               url:'match.html'
@@ -135,7 +100,7 @@ $('#calendar').fullCalendar({
             {
                 id: 2,
                 title: 'EGI - URU',
-                extendedTitle: '',
+                extendedTitle: 'EGIPTO - : - URUGUAY',
                 start: '2018-06-15T07:00',
                 end  : '2018-06-15T09:00'
             },
