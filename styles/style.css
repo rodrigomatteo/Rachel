@@ -84,3 +84,31 @@ a:hover, a:focus {
 #navbarNavDropdown{
     background-color: #333;
 }
+
+.score {
+    font-size: 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  .score {
+    font-size: 3rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { .score {
+    font-size: 3.5rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { .score {
+    font-size: 4rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { .score {
+    font-size: 4.5rem;
+ }
+}
